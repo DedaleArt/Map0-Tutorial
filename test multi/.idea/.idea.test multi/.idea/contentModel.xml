@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Garçons\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_test multi.-89283634.00" t="ExcludeRecursive" />
+    <e p="E:\Unity\projet\test multi" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="script" t="Include">
+          <e p="Bullet.cs" t="Include" />
+          <e p="camerascript.cs" t="Include" />
+          <e p="playercontroller.cs" t="Include" />
+          <e p="warriormouv.cs" t="Include" />
+        </e>
+        <e p="Yurowm" t="Include">
+          <e p="Demo" t="Include">
+            <e p="scripts" t="Include">
+              <e p="Actions.cs" t="Include" />
+              <e p="CharacterPanel.cs" t="Include" />
+              <e p="CharacterViewer.cs" t="Include" />
+              <e p="playercontroller.cs" t="Include" />
+            </e>
+          </e>
+          <e p="shaders" t="Include">
+            <e p="SkinShader.shader" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="test multi.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
