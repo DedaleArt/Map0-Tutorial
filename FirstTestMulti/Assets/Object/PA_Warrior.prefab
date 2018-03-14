@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 195664513227641074}
   - component: {fileID: 114482490326133672}
   - component: {fileID: 114797075607889910}
+  - component: {fileID: 64520370665813690}
   m_Layer: 0
   m_Name: PA_Warrior
   m_TagString: Untagged
@@ -994,6 +995,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64520370665813690
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469439713617738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!95 &95137857692371246
 Animator:
   serializedVersion: 3

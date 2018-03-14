@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-	public void Solo(string SolButn)
+	public void LoadGame()
 	{
-		SceneManager.LoadScene(SolButn);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
 	}
 
 	public void Quit()
 	{
+		Debug.Log("QUIT");
 		Application.Quit ();
 	}
 }
