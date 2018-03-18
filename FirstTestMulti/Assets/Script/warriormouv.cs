@@ -41,10 +41,8 @@ public class warriormouv : MonoBehaviour {
        if (!agent.pathPending && agent.remainingDistance < 0.5f)
            			GotoNextPoint();
        Animating();
-        
-      
-
     }
+	
 	void GotoNextPoint()
 	{
     		// Returns if no points have been set up
@@ -70,10 +68,27 @@ public class warriormouv : MonoBehaviour {
 
 
         // Tell the animator whether or not the player is walking.
-        anim.SetBool("forward", moving);
-        
+        anim.SetBool("forward", moving); 
+	    
        
     }
+	
+	public void Attack () 
+	{
+		anim.SetTrigger ("attack");
+	}
+	
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag ("Joueur"))
+		{
+			agent.Stop();
+			Attack();
+		}
+	}
 
-   
+	private void OnTriggerExit(Collider other)
+	{
+		agent.Resume();
+	}
 }

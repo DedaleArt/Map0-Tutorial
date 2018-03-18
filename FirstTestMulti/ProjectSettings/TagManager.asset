@@ -9,6 +9,8 @@ TagManager:
   - Endup
   - underground
   - mob
+  - Fire
+  - Joueur
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83a31d13-8066-41a6-9862-497c61d52cc3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="camerascript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/camerascript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1520947346000" expanded="false" signature="6:138" ph="..." />
+                <marker date="1520947346000" expanded="true" signature="182:3089" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="538:729" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="783:855" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="885:894" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="922:1099" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="991:1088" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="1127:1952" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="1195:1918" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="1976:3084" ph="{...}" />
+                <marker date="1520947346000" expanded="true" signature="2070:2303" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scr.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding>
+                <marker date="1521191049000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1521191049000" expanded="true" signature="113:298" ph="{...}" />
+                <marker date="1521191049000" expanded="true" signature="163:202" ph="{...}" />
+                <marker date="1521191049000" expanded="true" signature="257:296" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+              <folding>
+                <marker date="1521139038000" expanded="false" signature="6:184" ph="..." />
+                <marker date="1521139038000" expanded="true" signature="268:9042" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="1681:1797" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="1824:2003" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="2031:2145" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="2169:2371" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="2396:2726" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="2615:2689" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="2760:2873" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="2922:2994" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="3017:3731" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="3080:3443" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="3754:4299" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="3760:4148" ph="/* Determine the number of degrees to be turned based on the input, speed and time between frames. ... */" />
+                <marker date="1521139038000" expanded="true" signature="4348:4482" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="4520:5575" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="4565:5565" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="4600:5554" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="4842:5134" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="5172:5457" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="5595:5750" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="5650:5743" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="5776:5852" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="5878:5956" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="5978:6054" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="6079:6130" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="6154:6293" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="6318:6673" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="6700:6845" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="6870:6982" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="7008:7107" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="7140:8332" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="7234:7455" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8370:8864" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8420:8502" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8561:8640" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8692:8711" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8754:8860" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8886:8921" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8946:8971" ph="{...}" />
+                <marker date="1521139038000" expanded="true" signature="8996:9040" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TMP_TextSelector_A.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1518221069000" expanded="false" signature="6:76" ph="..." />
+                <marker date="1518221069000" expanded="true" signature="103:6833" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="201:6831" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="473:853" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="881:6491" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="1058:1129" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="1166:6481" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="1197:2569" ph="Example of Character Selection" />
+                <marker date="1518221069000" expanded="true" signature="1509:2542" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="2587:4800" ph="Example of Link Handling" />
+                <marker date="1518221069000" expanded="true" signature="2958:3112" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="3227:4773" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="3941:4755" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="4063:4313" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+                <marker date="1518221069000" expanded="true" signature="4448:4698" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+                <marker date="1518221069000" expanded="true" signature="4819:6467" ph="Example of Word Selection" />
+                <marker date="1518221069000" expanded="true" signature="5143:6440" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="5953:6357" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="6556:6658" ph="{...}" />
+                <marker date="1518221069000" expanded="true" signature="6722:6824" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scriptmulti.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/multi/scriptmulti.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2175">
+              <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+              <folding>
+                <marker date="1521190068000" expanded="true" signature="6:214" ph="..." />
+                <marker date="1521190068000" expanded="true" signature="300:399" ph="/* public Canvas gameover; ... */" />
+                <marker date="1521190068000" expanded="true" signature="1713:1831" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="1858:2037" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="2065:2179" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="2203:2412" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="2437:2802" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="2689:2765" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="2836:2949" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="2998:3103" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="3126:3840" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="3189:3552" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="3863:4408" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="3869:4257" ph="/* Determine the number of degrees to be turned based on the input, speed and time between frames. ... */" />
+                <marker date="1521190068000" expanded="true" signature="4457:4591" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="4629:5684" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="4674:5674" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="4709:5663" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="4951:5243" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="5281:5566" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="5704:5859" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="5759:5852" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="5885:5961" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="5987:6065" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="6087:6163" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="6188:6239" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="6263:6402" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="6427:6782" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="6809:6954" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="6979:7091" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="7117:7216" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="7249:8441" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="7343:7564" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="8479:8980" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="8486:8755" ph="/* if (other.gameObject.CompareTag (&quot;Pick up&quot;)) ... */" />
+                <marker date="1521190068000" expanded="true" signature="8806:8825" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="8868:8976" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="8982:9041" ph="/* public void Life() ... */" />
+                <marker date="1521190068000" expanded="true" signature="9066:9091" ph="{...}" />
+                <marker date="1521190068000" expanded="true" signature="9094:9164" ph="/* void SetCountText () ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Run</find>
+      <find>arsenal</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/camerascript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/rotatearoubd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/warriormouv.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/rotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset/Yurowm/Demo/Scripts/CharacterPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/multi/scriptmulti.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Asset/PyroParticles/Prefab/Script/MeteorSwarmScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/warriormouv.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/multi/scriptmulti.cs" />
+        <option value="$PROJECT_DIR$/Assets/scr.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="108" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FirstTestMulti (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83a31d13-8066-41a6-9862-497c61d52cc3" name="Default" comment="" />
+      <created>1521032476576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521032476576</updated>
+      <workItem from="1521032481059" duration="9622000" />
+      <workItem from="1521100728916" duration="2027000" />
+      <workItem from="1521137002600" duration="156000" />
+      <workItem from="1521137749740" duration="426000" />
+      <workItem from="1521138220578" duration="975000" />
+      <workItem from="1521188328347" duration="175000" />
+      <workItem from="1521188582764" duration="1375000" />
+      <workItem from="1521195161900" duration="669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15425000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="108" y="23" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/rotatearoubd.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/warriormouv.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="98" column="10" lean-forward="false" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+          <folding>
+            <marker date="1521139038000" expanded="false" signature="6:184" ph="..." />
+            <marker date="1521139038000" expanded="true" signature="268:9042" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="1681:1797" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="1824:2003" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2031:2145" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2169:2371" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2396:2726" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2615:2689" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2760:2873" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2922:2994" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3017:3731" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3080:3443" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3754:4299" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3760:4148" ph="/* Determine the number of degrees to be turned based on the input, speed and time between frames. ... */" />
+            <marker date="1521139038000" expanded="true" signature="4348:4482" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4520:5575" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4565:5565" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4600:5554" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4842:5134" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5172:5457" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5595:5750" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5650:5743" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5776:5852" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5878:5956" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5978:6054" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6079:6130" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6154:6293" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6318:6673" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6700:6845" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6870:6982" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7008:7107" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7140:8332" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7234:7455" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8370:8864" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8420:8502" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8561:8640" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8692:8711" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8754:8860" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8886:8921" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8946:8971" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8996:9040" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/camerascript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520947346000" expanded="false" signature="6:138" ph="..." />
+            <marker date="1520947346000" expanded="true" signature="182:3089" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="538:729" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="783:855" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="885:894" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="922:1099" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="991:1088" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="1127:1952" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="1195:1918" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="1976:3084" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="2070:2303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/rotate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/rotatearoubd.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4665">
+          <caret line="317" column="22" lean-forward="false" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
+          <folding>
+            <marker date="1521139038000" expanded="false" signature="6:184" ph="..." />
+            <marker date="1521139038000" expanded="true" signature="268:9042" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="1681:1797" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="1824:2003" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2031:2145" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2169:2371" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2396:2726" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2615:2689" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2760:2873" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2922:2994" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3017:3731" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3080:3443" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3754:4299" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3760:4148" ph="/* Determine the number of degrees to be turned based on the input, speed and time between frames. ... */" />
+            <marker date="1521139038000" expanded="true" signature="4348:4482" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4520:5575" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4565:5565" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4600:5554" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4842:5134" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5172:5457" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5595:5750" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5650:5743" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5776:5852" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5878:5956" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5978:6054" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6079:6130" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6154:6293" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6318:6673" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6700:6845" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6870:6982" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7008:7107" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7140:8332" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7234:7455" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8370:8864" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8420:8502" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8561:8640" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8692:8711" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8754:8860" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8886:8921" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8946:8971" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8996:9040" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/warriormouv.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Asset/PyroParticles/Prefab/Script/MeteorSwarmScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Asset/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Asset/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/rotate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/rotatearoubd.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/warriormouv.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Asset/Yurowm/Demo/Scripts/CharacterPanel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518221069000" expanded="false" signature="6:76" ph="..." />
+            <marker date="1518221069000" expanded="true" signature="103:6833" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="201:6831" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="473:853" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="881:6491" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="1058:1129" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="1166:6481" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="1197:2569" ph="Example of Character Selection" />
+            <marker date="1518221069000" expanded="true" signature="1509:2542" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="2587:4800" ph="Example of Link Handling" />
+            <marker date="1518221069000" expanded="true" signature="2958:3112" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="3227:4773" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="3941:4755" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="4063:4313" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+            <marker date="1518221069000" expanded="true" signature="4448:4698" ph="/* m_TextPopup_RectTransform.position = worldPointInRectangle; ... */" />
+            <marker date="1518221069000" expanded="true" signature="4819:6467" ph="Example of Word Selection" />
+            <marker date="1518221069000" expanded="true" signature="5143:6440" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="5953:6357" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="6556:6658" ph="{...}" />
+            <marker date="1518221069000" expanded="true" signature="6722:6824" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/multi/scriptmulti.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+          <folding>
+            <marker date="1521190068000" expanded="true" signature="6:214" ph="..." />
+            <marker date="1521190068000" expanded="true" signature="300:399" ph="/* public Canvas gameover; ... */" />
+            <marker date="1521190068000" expanded="true" signature="1713:1831" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="1858:2037" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="2065:2179" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="2203:2412" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="2437:2802" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="2689:2765" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="2836:2949" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="2998:3103" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="3126:3840" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="3189:3552" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="3863:4408" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="3869:4257" ph="/* Determine the number of degrees to be turned based on the input, speed and time between frames. ... */" />
+            <marker date="1521190068000" expanded="true" signature="4457:4591" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="4629:5684" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="4674:5674" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="4709:5663" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="4951:5243" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="5281:5566" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="5704:5859" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="5759:5852" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="5885:5961" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="5987:6065" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="6087:6163" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="6188:6239" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="6263:6402" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="6427:6782" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="6809:6954" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="6979:7091" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="7117:7216" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="7249:8441" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="7343:7564" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="8479:8980" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="8486:8755" ph="/* if (other.gameObject.CompareTag (&quot;Pick up&quot;)) ... */" />
+            <marker date="1521190068000" expanded="true" signature="8806:8825" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="8868:8976" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="8982:9041" ph="/* public void Life() ... */" />
+            <marker date="1521190068000" expanded="true" signature="9066:9091" ph="{...}" />
+            <marker date="1521190068000" expanded="true" signature="9094:9164" ph="/* void SetCountText () ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/camerascript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520947346000" expanded="false" signature="6:138" ph="..." />
+            <marker date="1520947346000" expanded="true" signature="182:3089" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="538:729" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="783:855" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="885:894" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="922:1099" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="991:1088" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="1127:1952" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="1195:1918" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="1976:3084" ph="{...}" />
+            <marker date="1520947346000" expanded="true" signature="2070:2303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <marker date="1521191049000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521191049000" expanded="true" signature="113:298" ph="{...}" />
+            <marker date="1521191049000" expanded="true" signature="163:202" ph="{...}" />
+            <marker date="1521191049000" expanded="true" signature="257:296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <marker date="1521139038000" expanded="false" signature="6:184" ph="..." />
+            <marker date="1521139038000" expanded="true" signature="268:9042" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="1681:1797" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="1824:2003" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2031:2145" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2169:2371" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2396:2726" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2615:2689" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2760:2873" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="2922:2994" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3017:3731" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3080:3443" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3754:4299" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="3760:4148" ph="/* Determine the number of degrees to be turned based on the input, speed and time between frames. ... */" />
+            <marker date="1521139038000" expanded="true" signature="4348:4482" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4520:5575" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4565:5565" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4600:5554" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="4842:5134" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5172:5457" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5595:5750" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5650:5743" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5776:5852" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5878:5956" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="5978:6054" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6079:6130" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6154:6293" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6318:6673" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6700:6845" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="6870:6982" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7008:7107" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7140:8332" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="7234:7455" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8370:8864" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8420:8502" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8561:8640" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8692:8711" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8754:8860" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8886:8921" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8946:8971" ph="{...}" />
+            <marker date="1521139038000" expanded="true" signature="8996:9040" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

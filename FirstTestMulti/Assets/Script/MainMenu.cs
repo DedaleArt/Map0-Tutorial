@@ -10,6 +10,16 @@ public class MainMenu : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
 	}
 
+	public void BackMenu()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+	}
+
+	public void ReloadMap()
+	{
+		SceneManager.LoadScene("Map0");
+	}
+	
 	public void Quit()
 	{
 		Debug.Log("QUIT");

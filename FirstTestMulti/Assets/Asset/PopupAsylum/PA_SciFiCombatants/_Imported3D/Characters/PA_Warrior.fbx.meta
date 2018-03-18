@@ -285,7 +285,7 @@ ModelImporter:
       name: PA_WarriorAttack_Clip
       takeName: Take 001
       firstFrame: 140
-      lastFrame: 210
+      lastFrame: 180
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
