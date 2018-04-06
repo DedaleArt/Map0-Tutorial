@@ -43,13 +43,16 @@
             </e>
           </e>
         </e>
-        <e p="scr.cs" t="Include" />
         <e p="Script" t="Include">
           <e p="camerascript.cs" t="Include" />
+          <e p="GraphicsMenu.cs" t="Include" />
+          <e p="LevelLoad.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="rotate.cs" t="Include" />
           <e p="rotatearoubd.cs" t="Include" />
+          <e p="scr.cs" t="Include" />
           <e p="warriormouv.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
