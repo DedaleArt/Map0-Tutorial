@@ -21,6 +21,7 @@ public class scriptmulti : NetworkBehaviour
 	public Transform est;
 	public Transform ouest;
 	public float distacediago;
+	
 	private string lastposition = null;
 	
 	public float jumpPower = 1;
