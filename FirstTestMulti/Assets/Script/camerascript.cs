@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Threading;
@@ -9,6 +10,7 @@ public class camerascript : MonoBehaviour {
 	// Use this for initialization
 
 	public Transform player;
+	private Transform lastposplayer;
 	public Transform nord;
 	public Transform sud;
 	public Transform est;
@@ -19,22 +21,39 @@ public class camerascript : MonoBehaviour {
 	private string lastposition = null;
 	public float distacediago;
 	private float time = 0;
+	private bool istravelling = false;
 	
 	void Start ()
 	{
 		initialtrans = this.gameObject.transform;
-		distance_camera = -Mathf.Abs(player.position.z - initialtrans.position.z);
+		distance_camera = -(Mathf.Abs(player.position.z - initialtrans.position.z) + Math.Abs(player.position.x - initialtrans.position.x));
 		hauteur_cam = initialtrans.position.y - player.position.y;
-		
+		lastposition = @where();
+		lastposplayer = player;	
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
+		if (@where() != lastposition)
+		{
+			istravelling = true;
+			
+			time = 0.0f;
+		}
 		
-		//mouvcame();
 		
-		poscamera();
+		if (istravelling)
+		{
+			mouvcame();
+			time += Time.deltaTime;
+		}
+		
+		else 
+			poscamera();
+		
+		
+		
 		lastposition = where();
 		
 	}
@@ -48,12 +67,14 @@ public class camerascript : MonoBehaviour {
 	
 	public void mouvcame()
 	{
-		if (@where() != lastposition)
-			time = 0;
-		while (time< 1000)
+		gameObject.transform.RotateAround(player.position, new Vector3(0.0f, 1.0f, 0.0f), 1 );
+		this.transform.position = new Vector3(transform.position.x+player.position.x - lastposplayer.position.x   ,transform.position.y +player.position.y - lastposplayer.position.y,transform.position.z +player.position.z - lastposplayer.position.z);
+		transform.LookAt(player);
+		if (time > 1.285f)
 		{
-			gameObject.transform.RotateAround(player.position, new Vector3(0.0f,1.0f,0.0f),90  );
+			istravelling = false;
 		}
+		lastposplayer.position = player.position;
 			
 			
 	}

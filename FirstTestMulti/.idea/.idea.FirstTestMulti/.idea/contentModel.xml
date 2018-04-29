@@ -34,14 +34,18 @@
             <e p="Lecompte.fnt" t="Include" />
           </e>
         </e>
-        <e p="multi" t="Include">
-          <e p="multi disableur.cs" t="Include" />
-          <e p="scriptmulti.cs" t="Include" />
-        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="map multi" t="Include">
+            <e p="required_gameobject" t="Include">
+              <e p="multidisableur.cs" t="Include" />
+              <e p="scriptmulti.cs" t="Include" />
             </e>
           </e>
         </e>
