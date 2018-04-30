@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Garçons\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_FirstTestMulti.-2105965655.00" t="ExcludeRecursive" />
-    <e p="E:\Unity\projet\Map0-Tutorial\FirstTestMulti" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -125,6 +124,28 @@
             </e>
           </e>
         </e>
+        <e p="Texture" t="Include">
+          <e p="Nice Material Pack" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Bark.shader" t="Include" />
+              <e p="Grass.shader" t="Include" />
+              <e p="Ice.shader" t="Include" />
+              <e p="Leaf.shader" t="Include" />
+              <e p="Mineral.shader" t="Include" />
+              <e p="Rocks.shader" t="Include" />
+              <e p="Snow.shader" t="Include" />
+              <e p="Wall.shader" t="Include" />
+              <e p="Wood.shader" t="Include" />
+            </e>
+          </e>
+          <e p="SkythianCat" t="Include">
+            <e p="Glowing_Forest" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="WaterGroup.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
       </e>
       <e p="FirstTestMulti.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
@@ -134,5 +155,6 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_FirstTestMulti.1561254443.00" t="ExcludeRecursive" />
   </component>
 </project>
