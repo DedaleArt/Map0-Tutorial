@@ -16358,6 +16358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b61500d105e4c6c99f7be41e5c87bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelCurrent: 
 --- !u!4 &631770486
 Transform:
   m_ObjectHideFlags: 0
@@ -19853,6 +19854,11 @@ Prefab:
       propertyPath: ouest
       value: 
       objectReference: {fileID: 1436031092}
+    - target: {fileID: 224961145348336220, guid: 5a99faa9a840145a2a7cfd0b907ccf22,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a99faa9a840145a2a7cfd0b907ccf22, type: 2}
   m_IsPrefabParent: 0
@@ -23236,13 +23242,13 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 631770485}
         m_MethodName: ReloadMap
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Map0
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
