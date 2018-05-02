@@ -126,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Teleport.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Teleport.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/Teleport.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <marker date="1525268745000" expanded="true" signature="6:78" ph="..." />
                 <marker date="1525268745000" expanded="true" signature="117:680" ph="{...}" />
@@ -140,6 +140,28 @@
                 <marker date="1525268745000" expanded="true" signature="383:675" ph="{...}" />
                 <marker date="1525268745000" expanded="true" signature="445:671" ph="{...}" />
                 <marker date="1525268745000" expanded="true" signature="489:666" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="levierscript.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/levierscript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1525270378000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1525270378000" expanded="true" signature="121:946" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="302:312" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="367:604" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="387:422" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="445:601" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="513:597" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="653:944" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="732:941" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="781:869" ph="{...}" />
+                <marker date="1525270378000" expanded="true" signature="890:924" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -187,6 +209,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Teleport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/rotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/levierscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GraphicsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" root0="FORCE_HIGHLIGHTING" />
@@ -223,6 +246,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/camerascript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Teleport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/levierscript.cs" />
       </list>
     </option>
   </component>
@@ -259,7 +283,7 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="FirstTestMulti (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="FirstTestMulti (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -318,12 +342,12 @@
       <workItem from="1525094921260" duration="87000" />
       <workItem from="1525121245162" duration="105000" />
       <workItem from="1525187174818" duration="2361000" />
-      <workItem from="1525256233276" duration="392000" />
+      <workItem from="1525256233276" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34104000" />
+    <option name="totallyTimeSpent" value="34522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +419,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Asset/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Asset/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/rotate.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -756,7 +779,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Script/Teleport.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <marker date="1525268745000" expanded="true" signature="6:78" ph="..." />
             <marker date="1525268745000" expanded="true" signature="117:680" ph="{...}" />
@@ -766,6 +789,26 @@
             <marker date="1525268745000" expanded="true" signature="383:675" ph="{...}" />
             <marker date="1525268745000" expanded="true" signature="445:671" ph="{...}" />
             <marker date="1525268745000" expanded="true" signature="489:666" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/levierscript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1525270378000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1525270378000" expanded="true" signature="121:946" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="302:312" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="367:604" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="387:422" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="445:601" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="513:597" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="653:944" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="732:941" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="781:869" ph="{...}" />
+            <marker date="1525270378000" expanded="true" signature="890:924" ph="{...}" />
           </folding>
         </state>
       </provider>
