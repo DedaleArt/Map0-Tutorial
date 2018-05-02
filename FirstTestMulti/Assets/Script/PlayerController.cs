@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 	public List<Text> Heart;
 
 	private int count;
+	public int countTotal;
 	public Text countText; 
 	
 	public Transform nord;
@@ -345,7 +346,7 @@ public class PlayerController : MonoBehaviour
 			count += 1;
 			SetCountText ();
 		}
-		if (other.gameObject.CompareTag ("Endup") && count == 1)
+		if (other.gameObject.CompareTag ("Endup") && count == countTotal)
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
 		} 
@@ -382,6 +383,6 @@ public class PlayerController : MonoBehaviour
 	void SetCountText ()
 	{
 
-		countText.text = "Loot: " + count;
+		countText.text = "Loot: " + count + "/" + countTotal;
 	}
 }

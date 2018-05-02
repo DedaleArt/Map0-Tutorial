@@ -60,6 +60,9 @@
           <e p="rotatearoubd.cs" t="Include" />
           <e p="warriormouv.cs" t="Include" />
         </e>
+        <e p="SkySerie Freebie" t="Include">
+          <e p="Hdri setup.txt" t="Include" />
+        </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
             <e p="Fonts" t="Include">
