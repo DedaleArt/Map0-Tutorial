@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -126,6 +126,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Teleport.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Teleport.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <marker date="1525268745000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1525268745000" expanded="true" signature="117:680" ph="{...}" />
+                <marker date="1525268745000" expanded="true" signature="195:268" ph="{...}" />
+                <marker date="1525268745000" expanded="true" signature="222:265" ph="{...}" />
+                <marker date="1525268745000" expanded="true" signature="309:678" ph="{...}" />
+                <marker date="1525268745000" expanded="true" signature="383:675" ph="{...}" />
+                <marker date="1525268745000" expanded="true" signature="445:671" ph="{...}" />
+                <marker date="1525268745000" expanded="true" signature="489:666" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GraphicsMenu.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/GraphicsMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,6 +184,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/rotatearoubd.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/warriormouv.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Teleport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -202,6 +222,7 @@
         <option value="$PROJECT_DIR$/Assets/multi/scriptmulti.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/camerascript.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Teleport.cs" />
       </list>
     </option>
   </component>
@@ -238,7 +259,7 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="FirstTestMulti (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="FirstTestMulti (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -297,12 +318,12 @@
       <workItem from="1525094921260" duration="87000" />
       <workItem from="1525121245162" duration="105000" />
       <workItem from="1525187174818" duration="2361000" />
-      <workItem from="1525256233276" duration="270000" />
+      <workItem from="1525256233276" duration="392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33982000" />
+    <option name="totallyTimeSpent" value="34104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Asset/PyroParticles/Prefab/Script/MeteorSwarmScript.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Asset/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Asset/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/rotate.cs">
@@ -729,6 +749,23 @@
             <marker date="1525256295000" expanded="true" signature="8919:8954" ph="{...}" />
             <marker date="1525256295000" expanded="true" signature="8979:9004" ph="{...}" />
             <marker date="1525256295000" expanded="true" signature="9029:9092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Teleport.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1525268745000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1525268745000" expanded="true" signature="117:680" ph="{...}" />
+            <marker date="1525268745000" expanded="true" signature="195:268" ph="{...}" />
+            <marker date="1525268745000" expanded="true" signature="222:265" ph="{...}" />
+            <marker date="1525268745000" expanded="true" signature="309:678" ph="{...}" />
+            <marker date="1525268745000" expanded="true" signature="383:675" ph="{...}" />
+            <marker date="1525268745000" expanded="true" signature="445:671" ph="{...}" />
+            <marker date="1525268745000" expanded="true" signature="489:666" ph="{...}" />
           </folding>
         </state>
       </provider>
