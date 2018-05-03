@@ -3091,6 +3091,7 @@ GameObject:
   - component: {fileID: 282309553}
   - component: {fileID: 282309552}
   - component: {fileID: 282309551}
+  - component: {fileID: 282309554}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Ground
@@ -3168,6 +3169,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282309549}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &282309554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282309549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c77a3b3801c4138a8d1a53f40896e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  display: {fileID: 0}
 --- !u!1 &282698797
 GameObject:
   m_ObjectHideFlags: 0
@@ -6183,6 +6196,7 @@ GameObject:
   - component: {fileID: 497569485}
   - component: {fileID: 497569484}
   - component: {fileID: 497569483}
+  - component: {fileID: 497569486}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Ground
@@ -6260,6 +6274,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 497569481}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &497569486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 497569481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c77a3b3801c4138a8d1a53f40896e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  display: {fileID: 0}
 --- !u!1 &504622497
 GameObject:
   m_ObjectHideFlags: 0
@@ -31804,6 +31830,7 @@ GameObject:
   - component: {fileID: 2063859134}
   - component: {fileID: 2063859133}
   - component: {fileID: 2063859132}
+  - component: {fileID: 2063859135}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Ground
@@ -31881,6 +31908,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2063859130}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2063859135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2063859130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c77a3b3801c4138a8d1a53f40896e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  display: {fileID: 0}
 --- !u!1 &2064830991
 GameObject:
   m_ObjectHideFlags: 0
