@@ -10,6 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="camerascript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/camerascript.cs">
@@ -49,11 +50,27 @@
                 <marker date="1525264655621" expanded="true" signature="1681:1771" ph="{...}" />
                 <marker date="1525264655621" expanded="true" signature="1730:1768" ph="{...}" />
                 <marker date="1525264655621" expanded="true" signature="1816:1840" ph="{...}" />
+=======
+    <leaf>
+      <file leaf-file-name="TutoAffichage.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/TutoAffichage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <marker date="1525341003000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1525341003000" expanded="true" signature="122:426" ph="{...}" />
+                <marker date="1525341003000" expanded="true" signature="199:289" ph="{...}" />
+                <marker date="1525341003000" expanded="true" signature="247:282" ph="{...}" />
+                <marker date="1525341003000" expanded="true" signature="338:424" ph="{...}" />
+                <marker date="1525341003000" expanded="true" signature="386:421" ph="{...}" />
+>>>>>>> 6b4cf7fddf79b5c763c1c8726d4c7286e9b54d35
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="LevelLoad.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/LevelLoad.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,6 +107,21 @@
             <state relative-caret-position="0">
               <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
               <folding />
+=======
+      <file leaf-file-name="Respawn.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Respawn.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <marker date="1525341579000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1525341579000" expanded="true" signature="116:420" ph="{...}" />
+                <marker date="1525341579000" expanded="true" signature="204:211" ph="{...}" />
+                <marker date="1525341579000" expanded="true" signature="297:418" ph="{...}" />
+                <marker date="1525341579000" expanded="true" signature="345:411" ph="{...}" />
+                <marker date="1525341579000" expanded="true" signature="392:407" ph="{...}" />
+              </folding>
+>>>>>>> 6b4cf7fddf79b5c763c1c8726d4c7286e9b54d35
             </state>
           </provider>
         </entry>
@@ -110,6 +142,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Respawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" root0="FORCE_HIGHLIGHTING" />
@@ -119,7 +152,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Script/TutoAffichage.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> 6b4cf7fddf79b5c763c1c8726d4c7286e9b54d35
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset/Yurowm/Demo/Scripts/CharacterPanel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -162,6 +199,8 @@
         <option value="$PROJECT_DIR$/Assets/Script/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Teleport.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/levierscript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/TutoAffichage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Respawn.cs" />
       </list>
     </option>
   </component>
@@ -171,9 +210,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-148" />
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
@@ -258,12 +296,20 @@
       <workItem from="1525121245162" duration="105000" />
       <workItem from="1525187174818" duration="2361000" />
       <workItem from="1525256233276" duration="810000" />
+<<<<<<< HEAD
       <workItem from="1525275122070" duration="92000" />
+=======
+      <workItem from="1525340597196" duration="1020000" />
+>>>>>>> 6b4cf7fddf79b5c763c1c8726d4c7286e9b54d35
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="34614000" />
+=======
+    <option name="totallyTimeSpent" value="35542000" />
+>>>>>>> 6b4cf7fddf79b5c763c1c8726d4c7286e9b54d35
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,6 +381,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Asset/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/rotate.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,6 +695,34 @@
             <marker date="1525264655621" expanded="true" signature="1681:1771" ph="{...}" />
             <marker date="1525264655621" expanded="true" signature="1730:1768" ph="{...}" />
             <marker date="1525264655621" expanded="true" signature="1816:1840" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Respawn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <marker date="1525341579000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1525341579000" expanded="true" signature="116:420" ph="{...}" />
+            <marker date="1525341579000" expanded="true" signature="204:211" ph="{...}" />
+            <marker date="1525341579000" expanded="true" signature="297:418" ph="{...}" />
+            <marker date="1525341579000" expanded="true" signature="345:411" ph="{...}" />
+            <marker date="1525341579000" expanded="true" signature="392:407" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/TutoAffichage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1525341003000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1525341003000" expanded="true" signature="122:426" ph="{...}" />
+            <marker date="1525341003000" expanded="true" signature="199:289" ph="{...}" />
+            <marker date="1525341003000" expanded="true" signature="247:282" ph="{...}" />
+            <marker date="1525341003000" expanded="true" signature="338:424" ph="{...}" />
+            <marker date="1525341003000" expanded="true" signature="386:421" ph="{...}" />
+>>>>>>> 6b4cf7fddf79b5c763c1c8726d4c7286e9b54d35
           </folding>
         </state>
       </provider>

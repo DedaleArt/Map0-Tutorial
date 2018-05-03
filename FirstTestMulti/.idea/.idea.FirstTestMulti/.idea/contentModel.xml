@@ -230,9 +230,11 @@
           <e p="MainMenu.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="Respawn.cs" t="Include" />
           <e p="rotate.cs" t="Include" />
           <e p="rotatearoubd.cs" t="Include" />
           <e p="Teleport.cs" t="Include" />
+          <e p="TutoAffichage.cs" t="Include" />
           <e p="warriormouv.cs" t="Include" />
         </e>
         <e p="SkySerie Freebie" t="Include">
